@@ -1,0 +1,105 @@
+{% load static %}
+<link href="{% static 'css/login.css'%}" rel="stylesheet">
+<link href="{% static 'css/custStyle1.css'%}" rel="stylesheet">
+
+{% include 'navbar.html' %}
+
+<section class="sectionCust">
+  <div class="container">
+    {% comment %} <div class="container mt-5 pt-5"> {% endcomment %}
+    <div class="row d-flex justify-content-center">
+        <!-- left side; image  -->
+        <div class="col-md-6">
+            <img src="{% static 'images/aboutUs.png' %}" width="700" height="450"/>                
+        </div>
+        <!-- right side; card -->
+        <div class="col-md-6">
+            <div class="card px-5 py-5" id="form1">
+                <div>
+                  <h1 class="colH1"><b>关于AI知海行</b></h1>
+                  <br/>
+                  <h2 class="custH2">AI知海行是在构建包含基础与进阶知识的教育大模型，依托多种技术，服务高校学生、教师及科研人员，定位为基础知识夯实、拓展知识、辅助教学及论文检索与分析。</h2>
+                  <br/>
+                  <h2 class="custH2">努力更新中...</h2>
+                  <br/>
+                  <h2 class="custH2">关于我们</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  {% comment %} <h1 class="text-center colH1"><b>Main Features of OAiES</b></h1>
+ <div class="container mt-2">
+    <div class="row d-flex justify-content-center">
+        <!-- left side; image  -->
+        <div class="col-md-6">
+            <img src="{% static 'images/Form.png' %}" width="700" height="450"/>                
+        </div>
+        <!-- right side; card -->
+        <div class="col-md-6">
+            <div class="card px-5 py-5" id="form1">
+                <div>
+                  <h1 class="custH1">Create Tests</h1>
+                  <br/>
+                  <h2 class="custH2">description</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr class="new3">
+<div class="container"> 
+  <div class="row d-flex justify-content-center">
+      <!-- left side; image  -->
+      <div class="col-md-6">
+        <div class="card px-5 py-5" id="form1">
+          <div>
+            <h1 class="custH1">Complete Tests</h1>
+            <br/>
+            <h2 class="custH2">description</h2>
+          </div>
+        </div>
+      </div>
+      <!-- right side; card -->
+      <div class="col-md-6">
+        <img src="{% static 'images/examImg.png' %}" width="700" height="450"/>                
+      </div>
+  </div>
+</div>
+<hr class="new3">
+<div class="container">
+  <div class="row d-flex justify-content-center">
+      <!-- left side; image  -->
+      <div class="col-md-6">
+          <img src="{% static 'images/dashboardImg.png' %}" width="700" height="450"/>                
+      </div>
+      <!-- right side; card -->
+      <div class="col-md-6">
+          <div class="card px-5 py-5" id="form1">
+              <div>
+                <h1 class="custH1">View Results</h1>
+                <br/>
+                <h2 class="custH2">OAiES allows students to view their own results, and also allows educators to view every results for a test set.</h2>
+              </div>
+          </div>
+      </div>
+  </div>
+</div> {% endcomment %}
+{% comment %} <div class="container">
+  <div class="row d-flex justify-content-center">
+    <!-- left side; image  -->
+    <div class="col-md-6">
+      <div class="card px-5 py-5" id="form1">
+        <div>
+          <h1 class="custH1">Title</h1>
+          <h2 class="custH2">description</h2>
+        </div>
+      </div>
+    </div>
+    <!-- right side; card -->
+    <div class="col-md-6">
+      <img src="{% static 'images/analysisImg.png' %}" width="700" height="450"/>                
+    </div>
+  </div>
+</div>  {% endcomment %}
+</section>
